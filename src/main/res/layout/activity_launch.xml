@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d9d4d4"
+    tools:context="com.george.econtactdemo.LaunchActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:src="@drawable/logo" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp" />
+
+    <Button
+
+        android:id="@+id/button3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="50dp"
+        android:layout_marginTop="290dp"
+        android:onClick="launch"
+        android:padding="5dp"
+        android:background="@drawable/button_style"
+        android:text="Θέλω να βρω έναν Επαγγελματία"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/eggrafh"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:text="Θέλω να διαφημιστώ ως Επαγγελματίας"
+        android:onClick="eggrafh"
+        android:background="@drawable/button_style"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

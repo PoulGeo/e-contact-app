@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/genealog"
+        android:title="Γενεαλογικά Δέντρα"/>
+    <item
+        android:id="@+id/asfalisths"
+        android:title="Ασφαλιστής"/>
+    <item
+        android:id="@+id/grafistas"
+        android:title="Γραφίστας"/>
+    <item
+        android:id="@+id/dikhgoros"
+        android:title="Δικηγόρος"/>
+    <item
+        android:id="@+id/logisths"
+        android:title="Λογιστής"/>
+    <item
+        android:id="@+id/xeiropoihta"
+        android:title="Χειροποίητες Κατασκευές"/>
+
+
+
+</menu>

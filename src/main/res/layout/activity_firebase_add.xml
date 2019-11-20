@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7684e4"
+    tools:context="com.george.econtactdemo.FirebaseAdd">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Προσωπικά Στοιχεία: "
+                android:layout_gravity="center"
+                android:textColor="#030131"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginBottom="26dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Όνομα Επώνυμο:"
+                    android:textColor="#000"
+                android:textSize="18sp"/>
+                <EditText
+                    android:id="@+id/edtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Γιάννης Παπαδάκος"
+                    android:inputType="textPersonName"
+                    android:textColorHint="#4e4c4c"
+                    tools:layout_editor_absoluteX="72dp"
+                    tools:layout_editor_absoluteY="70dp" />
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-mail:"
+                android:gravity="left"
+                android:textColor="#000"
+                android:textSize="18sp" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="test@test.com"
+                android:textColorHint="#4e4c4c"
+                android:id="@+id/edtMail"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+
+        </LinearLayout>
+
+
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:text="Τηλέφωνο:" />
+
+
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColorHint="#4e4c4c"
+                android:paddingLeft="10dp"
+                android:hint="2109999999/6979999999"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="200dp" />
+
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:text="Ειδίκευση:" />
+
+
+                <EditText
+                    android:id="@+id/edtProfession"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColorHint="#4e4c4c"
+                    android:paddingLeft="10dp"
+                    android:hint="Δάσκαλος Χορού Σάλσα"
+                    android:inputType="textPersonName"
+                    tools:layout_editor_absoluteX="72dp"
+                    tools:layout_editor_absoluteY="200dp" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:text="Προφίλ Επαγγελματία" />
+
+
+                <EditText
+                    android:id="@+id/edtProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="mariapappa.e-contact.gr"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:textColorHint="#4e4c4c"
+                    tools:layout_editor_absoluteX="72dp"
+                    tools:layout_editor_absoluteY="200dp" />
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#030131"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="Διάλεξε την κατηγορία στην οποία ανήκει το επάγγελμά σου" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="193dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtNull"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="Πρέπει να διαλέξεις μια κατηγορία"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Επίλεξε το Επάγγελμά σου"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:id="@+id/txt0"/>
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt0"
+                    android:id="@+id/sp0" />
+
+
+
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt0"
+                    android:id="@+id/sp1"/>
+
+
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt0"
+                    android:id="@+id/sp2" />
+
+
+
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt0"
+                    android:id="@+id/sp3" />
+
+
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt0"
+                    android:id="@+id/sp4"/>
+
+
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt0"
+                    android:id="@+id/sp5" />
+
+
+
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt0"
+                    android:id="@+id/sp6" />
+
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt0"
+                    android:id="@+id/sp7" />
+
+            </RelativeLayout>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#030131"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="26dp"
+                android:layout_gravity="center"
+                android:text="Στοιχεία Τόπου Εργασίας"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:text="Διεύθυνση Εργασίας:"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ομήρου 1 Μοσχάτο 16296"
+                    android:textColorHint="#4e4c4c"
+                    android:id="@+id/edtAddress"
+                    android:layout_below="@+id/edtProf"/>
+
+            </LinearLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnLatLng"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="#008080"
+                    android:onClick="browser"
+                    android:text="Εύρεση Συντεταγμένων"
+                    android:textColor="#000" />
+                <ImageView
+                    android:id="@+id/info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="274dp"
+                    android:onClick="infoExplain"
+                    android:src="@drawable/info" />
+
+
+
+            </RelativeLayout>
+
+
+
+            <EditText
+                android:id="@+id/edtLat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#000"
+                android:textColorHint="#4e4c4c"
+                android:hint="Latitude: 31,29389"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="334dp" />
+
+            <EditText
+                android:id="@+id/edtLong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#000"
+                android:textColorHint="#4e4c4c"
+                android:hint="Longtitude:21,82938"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="334dp" />
+
+
+
+
+
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Υποβολή"
+                android:layout_marginTop="35dp"
+                android:textSize="22sp"
+                android:background="#008080" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

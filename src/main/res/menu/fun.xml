@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/clown"
+        android:title="Κλόουν"/>
+    <item
+        android:id="@+id/dj"
+        android:title="DeeJay"/>
+    <item
+        android:id="@+id/theatre"
+        android:title="Θεατρικό Παιχνίδι"/>
+    <item
+        android:id="@+id/photos"
+        android:title="Φωτογράφος"/>
+
+</menu>

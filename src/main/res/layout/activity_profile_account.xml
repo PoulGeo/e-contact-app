@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.george.econtactdemo.ProfileAccount">
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageButton"
+        android:layout_marginLeft="75dp"
+        android:src="@drawable/profilephoto"/>
+
+    <TextView
+        android:id="@+id/nameName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="#000"
+       android:layout_below="@id/imageButton"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/mailMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_below="@id/nameName"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/phonePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_below="@+id/mailMail"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="34dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/professionProf"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_below="@+id/phonePhone"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AddressAddress"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_below="@id/phonePhone"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Διαμόρφωσε το Προφίλ σου"
+        android:padding="10dp"
+        android:layout_marginLeft="75dp"
+        android:background="@drawable/button_style"
+        android:id="@+id/btnEditProfile"
+        />
+
+
+
+
+
+</LinearLayout>

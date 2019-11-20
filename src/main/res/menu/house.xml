@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/geneal"
+        android:title="Γενεαλογικά Δέντρα"/>
+    <item
+        android:id="@+id/seff"
+        android:title="Μάγειρας"/>
+    <item
+        android:id="@+id/katharisths"
+        android:title="Καθαριστής"/>
+    <item
+        android:id="@+id/security"
+        android:title="Υπηρεσίες Προαστασίας(Security)"/>
+    <item
+        android:id="@+id/grandma"
+        android:title="Φύλαξη Ενηλικιωμένων"/>
+    <item
+        android:id="@+id/pets"
+        android:title="Φύλαξη Κατοικιδίων"/>
+    <item
+        android:id="@+id/children"
+        android:title="Φύλαξη Παιδιών"/>
+</menu>

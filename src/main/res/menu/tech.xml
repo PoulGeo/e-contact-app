@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/webDesign"
+        android:title="Web Designer"/>
+    <item
+        android:id="@+id/webDeveloper"
+        android:title="Web Developer"/>
+    <item
+        android:id="@+id/appDeveloper"
+        android:title="Application Developer"/>
+    <item
+        android:id="@+id/service"
+        android:title="Επισκευές Ηλεκτορνικών"/>
+</menu>

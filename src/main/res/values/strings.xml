@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">e-contact</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_education_maps">Map</string>
+    <string name="title_activity_maps_beauty">Map</string>
+</resources>
+

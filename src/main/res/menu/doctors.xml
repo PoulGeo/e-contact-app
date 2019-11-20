@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/genika"
+        android:title="Γενικών Καθηκόντων"/>
+    <item
+        android:id="@+id/gynaikologos"
+        android:title="Γυναικολόγος"/>
+    <item
+        android:id="@+id/dermatologos"
+        android:title="Δερματολόγος"/>
+    <item
+        android:id="@+id/diaitologos"
+        android:title="Διαιτολόγος"/>
+    <item
+        android:id="@+id/ergother"
+        android:title="Εργοθερπαυτής"/>
+    <item
+        android:id="@+id/kardiologos"
+        android:title="Καρδιολόγος"/>
+    <item
+        android:id="@+id/kthniatros"
+        android:title="Κτηνίατρος"/>
+    <item
+        android:id="@+id/logother"
+        android:title="Λογοθεραπευτής"/>
+    <item
+        android:id="@+id/odontiatros"
+        android:title="Οδοντίατρος"/>
+    <item
+        android:id="@+id/orthodontikos"
+        android:title="Ορθοδοντικός"/>
+    <item
+        android:id="@+id/pathologos"
+        android:title="Παθολόγος"/>
+    <item
+        android:id="@+id/paidiatros"
+        android:title="Παιδίατρος"/>
+    <item
+        android:id="@+id/plastikos"
+        android:title="Πλαστικός Χειρουργός"/>
+    <item
+        android:id="@+id/fysikotherap"
+        android:title="Φυσικοθεραπευτής"/>
+    <item
+        android:id="@+id/psuxologos"
+        android:title="Ψυχολόγος"/>
+
+
+</menu>

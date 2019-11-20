@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dhmotiko"
+        android:title="1οΒάθμια Εκπαίδευση"/>
+    <item
+        android:id="@+id/lykeiothetika"
+        android:title="2οΒάθμια Εκπαίδευση - Θετική"/>
+    <item
+        android:id="@+id/university"
+        android:title="3οΒαθμια Εκπαίδευση"/>
+    <item
+        android:id="@+id/lykeiothewrhtika"
+        android:title="2οΒάθμια Εκπαίδευση - Θεωρητική"/>
+    <item
+        android:id="@+id/kallitexnika"
+        android:title="Καλλιτεχνικά"/>
+    <item
+        android:id="@+id/ksenesglwsses"
+        android:title="Ξένες Γλώσσες"/>
+    <item
+        android:id="@+id/gymnastics"
+        android:title="Γυμναστική"/>
+
+
+</menu>

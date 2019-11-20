@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/interior"
+        android:title="Διακόσμηση Εσωτερικών Χώρων"/>
+    <item
+        android:id="@+id/elaioxrwm"
+        android:title="Ελαιοχρωματιστής"/>
+    <item
+        android:id="@+id/hlektrol"
+        android:title="Ηλεκτρολόγος"/>
+    <item
+        android:id="@+id/cctv"
+        android:title="Ηλεκτρονικοί(CCTV)"/>
+    <item
+        android:id="@+id/khpouros"
+        android:title="Κηπουρός"/>
+    <item
+        android:id="@+id/kleidaras"
+        android:title="Κλειδαράς"/>
+    <item
+        android:id="@+id/ksylourgos"
+        android:title="Ξυλουργός"/>
+    <item
+        android:id="@+id/katharistes"
+        android:title="Καθαριστής"/>
+    <item
+        android:id="@+id/tentes"
+        android:title="Τεντάς"/>
+    <item
+        android:id="@+id/ydraylikos"
+        android:title="Υδραυλικός"/>
+    <item
+        android:id="@+id/psuktikos"
+        android:title="Ψυκτικός"/>
+</menu>

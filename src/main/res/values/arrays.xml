@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="categories">
+        <item>Επίλεξε Κατηγορία</item>
+        <item>Ομορφιά</item>
+        <item>Γενικές Κατηγορίες</item>
+        <item>Διδασκαλία</item>
+        <item>Διασκέδαση</item>
+        <item>Ιατροί</item>
+        <item>Οικογενειακές Ανάγκες</item>
+        <item>Τεχνολογία</item>
+        <item>Τεχνίτες</item>
+    </string-array>
+
+    <string-array name="sp0">
+        <item>Περιποίηση μαλλιών</item>
+        <item>Περιποίηση νυχιών</item>
+        <item>Αισθητική</item>
+        <item>Massage</item>
+        <item>Tattoo</item>
+    </string-array>
+
+    <string-array name="sp1">
+        <item>Γενεαλογικά Δέντρα</item>
+        <item>Ασφαλιστής</item>
+        <item>Γραφίστας</item>
+        <item>Δικηγόρος</item>
+        <item>Λογιστής</item>
+        <item>Χειροποίητες Κατασκευές</item>
+    </string-array>
+
+    <string-array name="sp2">
+        <item>1οΒάθμια Εκπαίδευση</item>
+        <item>2οΒάθμια Εκπαίδευση - Θετική</item>
+        <item>3οΒαθμια Εκπαίδευση</item>
+        <item>2οΒάθμια Εκπαίδευση - Θεωρητική</item>
+        <item>Καλλιτεχνικά</item>
+        <item>Ξένες Γλώσσες</item>
+        <item>Γυμναστική</item>
+    </string-array>
+
+    <string-array name="sp3">
+        <item>Κλόουν</item>
+        <item>DeeJay</item>
+        <item>Θεατρικό Παιχνίδι</item>
+        <item>Φωτογράφος</item>
+    </string-array>
+
+    <string-array name="sp4">
+        <item>Γενικών Καθηκόντων</item>
+        <item>Γυναικολόγος</item>
+        <item>Δερματολόγος</item>
+        <item>Διαιτολόγος</item>
+        <item>Εργοθερπαυτής</item>
+        <item>Καρδιολόγος</item>
+        <item>Κτηνίατρος</item>
+        <item>Λογοθεραπευτής</item>
+        <item>Οδοντίατρος</item>
+        <item>Ορθοδοντικός</item>
+        <item>Παθολόγος</item>
+        <item>Παιδίατρος</item>
+        <item>Πλαστικός Χειρουργός</item>
+        <item>Φυσικοθεραπευτής</item>
+        <item>Ψυχολόγος</item>
+    </string-array>
+
+    <string-array name="sp5">
+        <item>Μάγειρας</item>
+        <item>Καθαριστής</item>
+        <item>Υπηρεσίες Προαστασίας(Security)</item>
+        <item>Φύλαξη Ενηλικιωμένων</item>
+        <item>Φύλαξη Κατοικιδίων</item>
+        <item>Φύλαξη Παιδιών</item>
+    </string-array>
+
+    <string-array name="sp6">
+        <item>Web Designer</item>
+        <item>Web Developer</item>
+        <item>Application Developer</item>
+        <item>Επισκευές Ηλεκτορνικών</item>
+    </string-array>
+
+    <string-array name="sp7">
+        <item>Διακόσμηση Εσωτερικών Χώρων</item>
+        <item>Ελαιοχρωματιστής</item>
+        <item>Ηλεκτρολόγος</item>
+        <item>Ηλεκτρονικοί(CCTV)</item>
+        <item>Κηπουρός</item>
+        <item>Κλειδαράς</item>
+        <item>Ξυλουργός</item>
+        <item>Καθαριστής</item>
+        <item>Τεντάς</item>
+        <item>Υδραυλικός</item>
+        <item>Ψυκτικός</item>
+    </string-array>
+
+</resources>
